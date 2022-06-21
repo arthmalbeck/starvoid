@@ -1,0 +1,21 @@
+header#main-header{
+  background: #1C1C1C;
+  height: 72px;
+}
+
+header#main-header .header-content{
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 1200px){
+  header#main-header .header-content{
+    justify-content: space-around;
+  }
+}

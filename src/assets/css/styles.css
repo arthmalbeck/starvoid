@@ -1,0 +1,92 @@
+body{
+    background-color: #333; 
+}
+
+a{
+    color: #FFD700;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkgoldenrod;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.body-content{
+    padding: 0px 8vw;
+}
+
+.card-dark{
+    background-color: #333; 
+    border-color: #FFD700;
+    color: aliceblue;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card{
+    padding: 25px;
+}
+
+.login-container{
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+.login-img{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.login-subimit{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.login-subimit button{
+    width: 100%;
+}
+
+.login-subimit button, .pagination-options button{
+    background-color: #FFD700;
+    color: black;
+}
+
+.login-subimit button:hover, .pagination-options button:hover{
+    background-color:goldenrod;
+    color: black;
+}
+
+.pagination-options{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-options button:only-child{
+    margin: 0;
+}
+
+.pagination-options button:first-child{
+    margin-right: 5px;
+}
+
+.pagination-options button:last-child{
+    margin-left: 5px;
+}
+

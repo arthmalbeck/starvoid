@@ -1,0 +1,19 @@
+.card-container{
+    margin-top: 15px;
+    border: none !important;
+}
+
+.card-container h1{
+    color:darkgoldenrod;
+    font-size: x-large;
+}
+
+.card-container h2{
+    color: brown;
+    font-size: large;
+}
+
+.card-img{
+    height: 50px;
+    object-fit: cover;
+}
