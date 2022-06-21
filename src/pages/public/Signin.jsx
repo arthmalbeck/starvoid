@@ -73,6 +73,9 @@ const Signin = () => {
 								Sign in
 							</Button>
 						</div>
+						<div className="error-container">
+							{error}
+						</div>
 					</CardBody>
 				</Card>
 			</div>

@@ -90,3 +90,12 @@ input{
     margin-left: 5px;
 }
 
+.error-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    color: yellow;
+}
+

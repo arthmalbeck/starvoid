@@ -87,6 +87,9 @@ const Signup = () => {
 								Sign up
 							</Button>
 						</div>
+						<div className="error-container">
+							{error}
+						</div>
 					</CardBody>
 				</Card>
 			</div>
