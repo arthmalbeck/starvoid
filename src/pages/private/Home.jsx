@@ -40,7 +40,6 @@ const Home = () => {
     <>
       {loading == true ? 
       <Loading/>:
-      // <ReactLoading type="spin" color="#FFD700" height={100} width={50}/> :
       <>
         <Navbar/>
         <Container className='body-content'>
@@ -60,12 +59,6 @@ const Home = () => {
               <Button onClick={() => paginateTo(list.next)}>Next Page</Button>
             }
           </div>
-
-
-        {/* CONSOLE PRINT */}
-        {list == null ? <></> :
-          <>{console.log("LIST -> ",list)}</>
-        }
         </Container>
       </>
       }
